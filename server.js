@@ -23,7 +23,7 @@ server.on('request', (req, res) => {
 });
 
 // Adding a dynamic PORT for Heroku, locally still 8042
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8042;
 
 // Have the server start listening locally to the port 8042,
 // and with Heroku it will get a dynamic port assigned automatically
