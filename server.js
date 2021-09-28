@@ -29,4 +29,4 @@ const PORT = process.env.PORT || 8042;
 // and with Heroku it will get a dynamic port assigned automatically
 server.listen(PORT);
 
-console.log(`Server up and listening on port ${PORT}`);
+console.log('Server up and listening on port ${PORT}');
